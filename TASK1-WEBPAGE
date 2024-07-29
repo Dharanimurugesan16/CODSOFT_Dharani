@@ -1,0 +1,169 @@
+<html>
+    <head><title>
+        beyond borders
+    </title>
+<style>
+body{
+    background-color: rgba(255, 249, 249, 0.651);
+}
+button{
+    background-color: rgb(20, 6, 6);
+    border: 0px;
+    font-size: large;
+    color: rgba(255, 249, 249, 0.651);
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+select{
+    border: 0cap;
+    font-size:30px;
+    text-decoration: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+option{
+    font-size: 20px;
+}
+a.hover:hover{
+    text-decoration: underline;
+}
+input{
+    font-size: large;
+    color: darkgray;
+}
+.tt{
+    background-color: #171212;
+  padding: 10px;
+  padding-bottom: 30px;
+    font-size: xx-large;
+    font-style: normal;
+    color: white;
+}
+footer {
+  background-color:#171212;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.dd{
+    font-size: xx-large;
+    font-style: normal;
+    
+}
+.container {
+            display: flex;
+            border: 0cap;
+        }
+ 
+        .box {
+            flex: 3;
+            margin: 20px;
+            border: 2px solid #ffffff;
+            border-radius: 20px;
+            width: 150px;
+            height: 200px;
+        }
+        .box {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 1px;
+}
+.th{
+    background-color: black;
+  padding: 10px;
+  padding-bottom: 30px;
+    font-size: xx-large;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
+</style>
+</head>
+
+    <body>
+        <h1>&nbsp;&nbsp;&nbsp;
+        <img src="https://cdn-icons-png.flaticon.com/128/10732/10732652.png" alt="*" width="60px" height="60px">
+        BeyondBorders
+        <form>
+        <div style=" margin-left: 32%;">
+        <select name="Discover" id="Discover">
+            <option>Discover</option>
+        <option>Choice</option>
+        <option>Stories</option>
+        </select>&ensp;
+        <a class="hover">Trip</a> &ensp;  
+        <select>
+            <option>Review</option>
+        <option>place</option>
+        <option>service</option>
+    </select>  &ensp; 
+       <a class="hover"> Forums </a>  &ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;
+        <button>Sign in</button>
+        </div>
+        </form>
+        </h1><div style="text-align: center;">
+        <form>
+            <input type="search" id="se" value=" places to go,things to do,hotels..." 
+            style="width: 700px;height: 40px; border-radius: 50px;"/><br><br><br><br>
+            <img src="https://static.vecteezy.com/system/resources/previews/000/670/523/original/vector-lets-go-travel-banner.jpg" 
+            alt="tt" width="1200px"height="500px">
+        </form>
+        </div>
+        <br><br>
+        <header class="tt"> &ensp; <b>Looking for a hidden island</b></header>
+        
+        <section>
+            
+        <img src="https://assets.entrepreneur.com/content/3x2/1300/20160329150458-cuba-havana-colorful-buildings-streets.jpeg"
+        width="390px" height="366px" style="float:right">
+        </section><br><br><br>
+        <article style="font-size: 23px;">&ensp;&ensp;
+            Traveling in Cuba offers a unique blend of rich history, vibrant culture, and stunning landscapes. 
+            In major cities,you'll find colorful colonial architecture,while Varadero is famous for its pristine beaches. 
+            Nature lovers can explore the scenic Vinales Valley,and the waterfalls of Topes de Collantes. 
+            Cuban cuisine is a delicious fusion of Spanish, African, and Caribbean influences.
+            Travelers need a tourist visa and should have travel insurance, with some vaccinations possibly required.
+            Cuba's mix of adventure and relaxation offers a truly immersive experience.<br><br><br><br><br>
+            <br><footer>Want to visit any other island? <a class="hover" ><b>Click here</b></a>
+            </footer>
+        </article><br><br>
+        <header class="dd"><h2><b>Our Packages</b></h2></header>
+        <div class="container">
+            <div class="box">
+                <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3052/Beautiful%20tropical%20beach%20in%20Thailand.jpg?crop=134:207&downsize=134:207"
+                width="130px" height="200px"  style="border-radius: 20px;">
+                <div class="bottom-left"><b>Kerala</b><br> Starting at $50 Per person</div></div>
+            <div class="box">
+                <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/ZF.jpg?crop=134:207&downsize=134:207"
+                width="130px" height="200px"  style="border-radius: 20px;"><div class="bottom-left"><b>Goa</b><br> Starting at $30 Per person</div></div>
+            <div class="box">
+                <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1181/kanyakumari1.jpg?crop=134:207&downsize=134:207"
+                width="130px" height="200px"  style="border-radius: 20px;"><div class="bottom-left"><b>South India</b><br> Starting at $100 Per person</div></div>
+            <div class="box">
+                <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1325/Udaipur-Heritage.jpg?crop=134:207&downsize=134:207"
+                width="130px" height="200px"  style="border-radius: 20px;"><div class="bottom-left"><b>Rajasthan</b><br> Starting at $60 Per person</div></div>
+            <div class="box">
+                <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1339/Port-Blair%20Andaman.jpg?crop=134:207&downsize=134:207"
+                width="130px" height="200px"  style="border-radius: 20px;"><div class="bottom-left"><b>Andhaman</b><br> Starting at $80 Per person</div></div>
+            <div class="box">
+                <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3766/Picturesque%20view%20of%20snow-covered%20hills%20in%20Gulmarg.jpeg?crop=134:207&downsize=134:207"
+                width="130px" height="200px"  style="border-radius: 20px;"><div class="bottom-left"><b>Kashmir</b><br> Starting at $40 Per person</div></div>
+            <div class="box">
+                <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1993/Aerial%20view%20of%20Iru%20Fushi.jpg?crop=134:207&downsize=134:207"
+                width="130px" height="200px"  style="border-radius: 20px;"><div class="bottom-left"><b>Maldives</b><br> Starting at $80 Per person</div></div></div>
+            <br><div class="th">
+                <p style="text-align:left">Follow Us</p>
+                
+            <a><img align="left" src="https://www.pngkey.com/png/full/84-842567_twitter-logo-black-png.png" width="60px" height="60px" ></a>
+            <img align="left" src="https://www.freeiconspng.com/uploads/facebook-logo-png-white-image-galleries--imagekbm-25.png" width="60px" height="60px" >
+            
+            <h4 style="text-align: left;">&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Thank you for visiting our page  </h4>
+           <p style="text-align: right;">Contact Us:beyondborders@gmail.com</p>
+            </div>
+        </div>
+    </body>
+</html>
