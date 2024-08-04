@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1rem;
+        }
+        header h1 {
+            margin: 0;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #34495e;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #3498db;
+        }
+
+        /* Section Styles */
+        section {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        /* Project Styles */
+        .project {
+            background-color: #ecf0f1;
+            border: 1px solid #bdc3c7;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .project h3 {
+            margin-top: 0;
+            color: #3498db;
+        }
+
+        /* Resume Styles */
+        .resume-item {
+            margin-bottom: 20px;
+        }
+        .resume-item h3 {
+            color: #3498db;
+            margin-bottom: 5px;
+        }
+        .resume-item p {
+            margin: 0;
+        }
+
+        /* Contact Form Styles */
+        form {
+            display: grid;
+            gap: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I'm a passionate web developer with experience in HTML, CSS, JavaScript, and various modern web technologies. I love creating responsive and user-friendly websites that solve real-world problems.</p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>E-commerce Website</h3>
+                <p>A full-stack e-commerce platform built with React and Node.js, featuring user authentication, product catalog, and payment integration.</p>
+            </div>
+            <div class="project">
+                <h3>Responsive Blog Template</h3>
+                <p>A modern, responsive blog template using HTML5 and CSS3, with a focus on typography and readability across devices.</p>
+            </div>
+            <div class="project">
+                <h3>Weather App</h3>
+                <p>A dynamic weather application utilizing public APIs and JavaScript to provide real-time weather information and forecasts.</p>
+            </div>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <div class="resume-item">
+                <h3>Work Experience</h3>
+                <p><strong>Web Developer</strong> - XYZ Company (2020-Present)</p>
+                <ul>
+                    <li>Developed and maintained client websites</li>
+                    <li>Implemented responsive designs for mobile-first approach</li>
+                    <li>Optimized site performance and SEO</li>
+                    <li>Collaborated with design team to create intuitive user interfaces</li>
+                </ul>
+            </div>
+            <div class="resume-item">
+                <h3>Education</h3>
+                <p><strong>Bachelor of Science in Computer Science</strong> - University of Technology (2016-2020)</p>
+                <ul>
+                    <li>Relevant coursework: Web Development, Database Systems, Software Engineering</li>
+                    <li>Graduated with honors</li>
+                </ul>
+            </div>
+            <div class="resume-item">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Frontend: HTML5, CSS3, JavaScript, React</li>
+                    <li>Backend: Node.js, Express, MongoDB</li>
+                    <li>Tools: Git, VS Code, Webpack</li>
+                    <li>Other: Responsive Design, RESTful APIs, UI/UX principles</li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
